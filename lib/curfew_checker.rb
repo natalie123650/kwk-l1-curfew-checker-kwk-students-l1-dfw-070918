@@ -3,6 +3,7 @@ def simple_curfew_checker(time)
     puts "You're in trouble, better get home quick!"
   end 
 end
+simple_curfew_checker
 
 def curfew_checker(time)
   if curfew_checker >= 11
@@ -11,6 +12,7 @@ def curfew_checker(time)
     puts "Keep an eye out for the time!"
   end 
 end
+
 
 def complex_curfew_checker(time)
   if complex_curfew_checker == 11
@@ -22,6 +24,7 @@ def complex_curfew_checker(time)
   end
 end
 
+
 def deluxe_curfew_checker(time)
   deluxe_curfew_checker == 10
   puts "It's #{deluxe_curfew_checker} o'clock"
@@ -32,6 +35,7 @@ def deluxe_curfew_checker(time)
     puts "Uh oh!"
   end 
 end
+
 
 def platinum_curfew_checker(current_time, curfew_time)
   loop do 
