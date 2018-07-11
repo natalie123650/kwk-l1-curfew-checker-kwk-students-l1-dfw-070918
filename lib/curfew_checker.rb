@@ -13,9 +13,9 @@ def curfew_checker(time)
 end
 
 def complex_curfew_checker(time)
-  if complex_curfew_checker >= 11
+  if complex_curfew_checker == 11
     puts "You're in trouble, better get home quick!"
-  elsif 
+  elsif complex_curfew_checker < 11 
     puts "Keep an eye out on time!"
   else 
     puts "Uh oh!"
@@ -27,6 +27,7 @@ def deluxe_curfew_checker(time)
   puts "It's #{deluxe_curfew_checker} o'clock"
   if deluxe_curfew_checker >= 7
     puts "Keep an eye out on time!"
+  elsif deluxe_curfew_checker 
   else  
     puts "Uh oh!"
   end 
