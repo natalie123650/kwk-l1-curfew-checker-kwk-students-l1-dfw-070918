@@ -26,10 +26,10 @@ end
 
 
 def deluxe_curfew_checker(time)
-  deluxe_curfew_checker == 10
-  puts "It's #{deluxe_curfew_checker} o'clock"
-  if deluxe_curfew_checker == 10
-  elsif deluxe_curfew_checker >= 10 
+  time == 10
+  puts "It's #{time} o'clock"
+  if time == 10
+  elsif time >= 10 
     puts "Keep an eye out on time!"
   else  
     puts "Uh oh!"
