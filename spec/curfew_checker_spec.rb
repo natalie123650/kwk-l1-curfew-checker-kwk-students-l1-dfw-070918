@@ -1,6 +1,8 @@
 require_relative '../lib/curfew_checker.rb'
 describe "#simple_curfew_checker" do
 
+
+
   it "should tell you if you're in trouble if it's 11" do 
     expect(simple_curfew_checker(11)).to eq("You're in trouble! Better get home quick!")
   end

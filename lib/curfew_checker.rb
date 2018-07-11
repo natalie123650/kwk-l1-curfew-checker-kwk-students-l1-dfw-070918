@@ -1,19 +1,45 @@
 def simple_curfew_checker(time)
-  # code goes here
+  if simple_curfew_checker >= 11
+    puts "You're in trouble, better get home quick!"
+  end 
 end
 
 def curfew_checker(time)
-  # code goes here
+  if curfew_checker >= 11
+    puts "You're in trouble, better get home quick!"
+  else
+    puts "Keep an eye out for the time!"
+  end 
 end
 
 def complex_curfew_checker(time)
-  # code goes here
+  if complex_curfew_checker >= 11
+    puts "You're in trouble, better get home quick!"
+  elsif 
+    puts "Keep an eye out on time!"
+  else 
+    puts "Uh oh!"
+  end
 end
 
 def deluxe_curfew_checker(time)
-  # code goes here
+  deluxe_curfew_checker == 7
+  puts "It's #{deluxe_curfew_checker} o'clock"
+  if deluxe_curfew_checker >= 7
+    puts "Keep an eye out on time!"
+  else  
+    puts "Uh oh!"
+  end 
 end
 
 def platinum_curfew_checker(current_time, curfew_time)
-  # code goes here
+  platinum_curfew_checker == 6
+  platinum_curfew_checker += 1 
+  if platinum_curfew_checker < 11
+    puts "Keep an eye out on time!"
+  elsif 
+    puts "You're in trouble, better get home quick!"
+  else  
+    puts "Uh oh!"
+  end 
 end
