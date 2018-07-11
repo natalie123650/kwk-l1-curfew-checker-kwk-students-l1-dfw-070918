@@ -39,11 +39,12 @@ end
 
 def platinum_curfew_checker(current_time, curfew_time)
   loop do 
-  platinum_curfew_checker == 6
-  platinum_curfew_checker += 1 
-  if platinum_curfew_checker < 11
+  current_time == 6
+  current_time += 1 
+  curfew_time == 11
+  if current_time < curfew_time
     puts "Keep an eye out on time!"
-  elsif platinum_curfew_checker == 11
+  elsif current_time ==  curfew_time
     puts "You're in trouble, better get home quick!"
   else  
     puts "Uh oh!"
