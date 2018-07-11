@@ -44,7 +44,7 @@ def platinum_curfew_checker(current_time, curfew_time)
   curfew_time == 11
   if current_time < curfew_time
     puts "Keep an eye out on time!"
-  elsif current_time ==  curfew_time
+  elsif current_time == curfew_time
     puts "You're in trouble, better get home quick!"
   else  
     puts "Uh oh!"
