@@ -34,6 +34,7 @@ def deluxe_curfew_checker(time)
 end
 
 def platinum_curfew_checker(current_time, curfew_time)
+  loop do 
   platinum_curfew_checker == 6
   platinum_curfew_checker += 1 
   if platinum_curfew_checker < 11
