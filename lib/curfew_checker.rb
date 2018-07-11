@@ -49,3 +49,4 @@ def platinum_curfew_checker(current_time, curfew_time)
     puts "Uh oh!"
   end 
 end
+platinum_curfew_checker
